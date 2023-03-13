@@ -22,10 +22,21 @@
 
 header{
     height: 60px;
-    background-color: lightblue;
-    
+    padding: 0 1em;
+    background-color: lightblue;    
     
 }
+
+.headLeft{
+    width: 25%;
+
+}
+    
+
+.headRight{
+    width: 25%;
+}
+
 
 .dropboxLogo{
     height: calc( 100% / 3 );
