@@ -172,11 +172,23 @@ h1{
 
 /* ***section 5 */
 
+#fifthSection{
+    min-height: 400px;
+    margin-top: 10em;
+}
+
 .section5Img{
     width: 100%;
 }
 
 .column30{
-    width: 33.3%;    
+    width: 33.3%;
+    border: solid 1px;
     background-color: pink;
+}
+
+/* ***section 6*** */
+#sixthSection{
+    min-height: 400px;
+    margin-top: 10em;
 }
