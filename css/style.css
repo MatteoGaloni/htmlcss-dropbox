@@ -1,3 +1,32 @@
-h1{
-    color: red;
+/* general settings */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.alignItemCenter{
+    align-items: center;
+}
+
+.spaceBtw{
+    justify-content: space-between;
+}
+
+/* header */
+
+header{
+    height: 60px;
+    background-color: lightblue;
+    
+    
+}
+
+.dropboxLogo{
+    height: calc( 100% / 3 );
 }
