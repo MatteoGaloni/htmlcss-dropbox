@@ -119,3 +119,24 @@ h1{
 .Row{
     margin-bottom: 2em;
 }
+
+/* ****section 3**** */
+
+#thirdSection{
+    min-height: 400px;
+    background-color: yellow
+}
+.team{
+    text-align: ;
+}
+
+#thirdSection > div{
+    background-color: beige;
+    border: solid 1px;
+    margin-top: 2em;
+}
+
+.firstRow{
+    text-align: center;
+    border-bottom: solid 1px;
+}
