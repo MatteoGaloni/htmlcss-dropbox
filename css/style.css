@@ -133,8 +133,9 @@ h1{
     min-height: 400px;
     background-color: yellow
 }
+
 .team{
-    text-align: ;
+    text-align: center;
 }
 
 #thirdSection > div{
@@ -182,8 +183,7 @@ h1{
 }
 
 .column30{
-    width: 33.3%;
-    border: solid 1px;
+    width: 33.3%;    
     background-color: pink;
 }
 
@@ -191,4 +191,27 @@ h1{
 #sixthSection{
     min-height: 400px;
     margin-top: 10em;
+}
+
+/* ***section 7*** */
+.seventhSection{
+    background-color: darkmagenta;
+    min-height: 400px;
+}
+
+.grid{
+    background-color: beige;
+    width: 50%;
+}
+
+.gridImg{
+    width: 100%;
+}
+
+.column30.square{
+    height: calc(100vw / 3);
+}
+
+.overflow{
+    overflow-y: scroll;
 }
