@@ -74,6 +74,9 @@ h1{
 .columnRight{
     width: 70%;
     background-color: violet;
+}
+
+.columnRight.negativeMargin{
     margin-bottom: -2.5em;
 }
 
@@ -139,4 +142,25 @@ h1{
 .firstRow{
     text-align: center;
     border-bottom: solid 1px;
+}
+
+/* section 4 */
+
+#fourthSection > div{
+    background-color: rgb(34, 255, 0);
+    min-height: 400px;
+}
+
+.columnA{
+    width: 70%;
+    background: lime;
+}
+
+.columnB{
+    width: 30%;
+    background-color: brown;
+}
+
+#partnerImg{
+    height: 400px;
 }
