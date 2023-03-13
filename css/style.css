@@ -24,6 +24,10 @@
     justify-content: space-between;
 }
 
+.wrapped{
+    flex-wrap: wrap;
+}
+
 /* header */
 
 header{
@@ -97,7 +101,7 @@ h1{
     margin: auto;      
 }
 
-.column30{
+.column30.border{
     width: 33.3%;
     border: solid 1px;
     background-color: pink;
@@ -162,5 +166,17 @@ h1{
 }
 
 #partnerImg{
-    height: 400px;
+    width: 100%;
+    display: block;
+}
+
+/* ***section 5 */
+
+.section5Img{
+    width: 100%;
+}
+
+.column30{
+    width: 33.3%;    
+    background-color: pink;
 }
