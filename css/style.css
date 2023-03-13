@@ -48,7 +48,8 @@ header{
     height: calc( 100% / 3 );
 }
 
-/* main */
+/* *******main */
+/* Section 1 */
 
 #firstSection{
     background-color: lightpink;
@@ -78,4 +79,43 @@ h1{
 
 #jumboImg{
     width: 100%;
+}
+
+/* Section 2 */
+
+#secondSection{
+    min-height: 400px;
+    margin-top: 10em;
+}
+
+.boxed50{
+    height: 100%;
+    width: 50%;
+    margin: auto;      
+}
+
+.column30{
+    width: 33.3%;
+    border: solid 1px;
+    background-color: pink;
+}
+
+.containerSecondSection{
+    min-height: 400px;
+    margin-top: 2em;
+}
+
+.headerSecondSection{
+    margin-bottom: 2em;
+}
+
+.account{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    border: solid 1px;
+}
+
+.Row{
+    margin-bottom: 2em;
 }
