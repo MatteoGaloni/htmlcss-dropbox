@@ -296,5 +296,26 @@ hr{
     margin: 2em 0;
 }
 
+/* ******footer****** */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.boxed60{
+    width: 60%;
+    margin: auto;
+    min-height: 300px;
+}
+
+.bottomLink{
+    margin-top: 2em;
+}
+
+.listStyleNone{
+    list-style-type: none;
+}
+
 
 
