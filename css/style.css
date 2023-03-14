@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flex{
@@ -33,23 +33,24 @@
 
 }
 
+/* *********** */
 /* header */
 
 header{
     height: 60px;
     padding: 0 1em;
-    background-color: lightblue;    
+       
     
 }
 
 .headLeft{
-    width: 25%;
+    width: 30%;
 
 }
     
 
 .headRight{
-    width: 25%;
+    width: 30%;
 }
 
 
@@ -57,11 +58,18 @@ header{
     height: calc( 100% / 3 );
 }
 
+button{
+    padding: 6px 8px;
+    background-color: blue;
+    color: white;
+    border: none
+}
+
 /* *******main */
 /* Section 1 */
 
 #firstSection{
-    background-color: lightpink;
+    background-color:#b4d0e7;
     min-height: 400px;
 }
 
@@ -71,18 +79,22 @@ header{
 }
 
 h1{
-    font-size: 5em;
+    font-size: 4em;
     padding: 0.5em 0;
 }
 
+.fa-arrow-down{
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: black;
+}
+
 .columnLeft{
-    width: 70%;
-    background-color: orange;
+    width: 30%;
 }
 
 .columnRight{
     width: 70%;
-    background-color: violet;
 }
 
 .columnRight.negativeMargin{
@@ -107,9 +119,8 @@ h1{
 }
 
 .column30.border{
-    width: 33.3%;
-    border: solid 1px;
-    background-color: pink;
+    width: calc(100% / 3 - 45px);
+    border: solid .5px;
 }
 
 .containerSecondSection{
@@ -125,7 +136,7 @@ h1{
     text-align: center;
     width: 100%;
     display: inline-block;
-    border: solid 1px;
+    border-bottom : solid .5px;
 }
 
 .Row{
@@ -136,7 +147,6 @@ h1{
 
 #thirdSection{
     min-height: 400px;
-    background-color: yellow
 }
 
 .team{
@@ -144,7 +154,6 @@ h1{
 }
 
 #thirdSection > div{
-    background-color: beige;
     border: solid 1px;
     margin-top: 2em;
 }
@@ -157,18 +166,15 @@ h1{
 /* section 4 */
 
 #fourthSection > div{
-    background-color: rgb(34, 255, 0);
     min-height: 400px;
 }
 
 .columnA{
-    width: 70%;
-    background: lime;
+    width: 70%;    
 }
 
 .columnB{
-    width: 30%;
-    background-color: brown;
+    width: 30%;    
 }
 
 #partnerImg{
@@ -188,8 +194,7 @@ h1{
 }
 
 .column30{
-    width: 33.3%;    
-    background-color: pink;
+    width: 33.33%;    
 }
 
 /* ***section 6*** */
@@ -200,16 +205,22 @@ h1{
 
 /* ***section 7*** */
 .seventhSection{
-    background-color: darkmagenta;
+    background-color: #f5f5f5;
     min-height: 400px;
 }
 
 .grid{
     background-color: beige;
     width: 50%;
+    height: 50%;
 }
 
 .gridImg{
+    width: 50%;
+    filter: invert(1);
+}
+
+.gridImgCentre{
     width: 50%;
 }
 
@@ -219,4 +230,71 @@ h1{
 
 .overflow{
     overflow-y: scroll;
+    padding: 2em;
 }
+
+.oneL{
+    background-color: green;
+}
+
+.twoL{
+    background-color: rgb(255, 0, 187);
+}
+
+.threeL{
+    background-color: lightblue;
+}
+
+.fourL{
+    background-color: red ;
+}
+
+.oneR{
+    background-color: red;
+}
+
+.twoR{
+    background-color: lightskyblue ;
+
+}
+
+.threeR{
+    background-color: darkblue;
+}
+
+.fourR{
+    background-color: yellow;
+}
+
+/* ***section 8*** */
+
+#eightSection{
+    background-color: #b4d0e7;
+    
+}
+
+#eightSection > div{
+    padding-top: 5em;
+    padding-bottom: 5em;  
+}
+
+/* **section 9 */
+
+#ninthSection{
+    margin: 2em 0;
+}
+
+#ninthSection > .boxed50{
+    margin-top: 6em;
+}
+
+hr{
+    color: black;
+}
+
+.marginTopBottom2em{
+    margin: 2em 0;
+}
+
+
+
