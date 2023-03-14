@@ -121,6 +121,7 @@ h1{
 .column30.border{
     width: calc(100% / 3 - 45px);
     border: solid .5px;
+    border-color: #d0d0d3;
 }
 
 .containerSecondSection{
@@ -137,6 +138,7 @@ h1{
     width: 100%;
     display: inline-block;
     border-bottom : solid .5px;
+    border-color: #d0d0d3;
 }
 
 .Row{
@@ -156,11 +158,13 @@ h1{
 #thirdSection > div{
     border: solid 1px;
     margin-top: 2em;
+    border-color: #d0d0d3;
 }
 
 .firstRow{
     text-align: center;
     border-bottom: solid 1px;
+    border-color: #d0d0d3;
 }
 
 /* section 4 */
