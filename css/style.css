@@ -33,14 +33,50 @@
 
 }
 
+.marginTopBottom2em{
+    margin: 2em 0;
+}
+
+.mrgR2em{
+    margin-right: 2em;
+}
+
+.mrg1em{
+    margin: 1em;
+}
+
+.mrgTop1em{
+    margin-top: 1em;
+}
+
+.mrgBottom1em{margin-bottom: 1em;}
+
+.pad1em{
+    padding: 1em;
+}
+
+.pad05em{
+    padding: 0.5em;
+}
+
+.padLeft1{
+    padding-left: 1em;
+}
+
+.padtop1em{
+    padding-top: 1em;
+}
+
 /* *********** */
 /* header */
 
 header{
-    height: 60px;
+    height: 65px;
     padding: 0 1em;
-       
-    
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;     
 }
 
 .headLeft{
@@ -59,32 +95,44 @@ header{
 }
 
 button{
-    padding: 6px 8px;
+    padding: 6px 15px;
     background-color: blue;
     color: white;
     border: none
 }
 
 /* *******main */
+
+main{
+    margin-top: 65px;
+}
+
 /* Section 1 */
 
 #firstSection{
     background-color:#b4d0e7;
     min-height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.boxed75{
-    width: 70%;
+.boxed65{
+    width: 65%;
     margin: auto;
 }
 
 h1{
+    width: 90%;
+    font-weight: bold;
     font-size: 4em;
-    padding: 0.5em 0;
+    padding: 0.5em 0
+}
+
+#freeTrialButton{
+    width: 75%;
 }
 
 .fa-arrow-down{
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 1em;
     color: black;
 }
@@ -118,8 +166,12 @@ h1{
     margin: auto;      
 }
 
+h2{
+    font-size: 2em;
+}
+
 .column30.border{
-    width: calc(100% / 3 - 45px);
+    width: calc(100% / 3 - 30px);
     border: solid .5px;
     border-color: #d0d0d3;
 }
@@ -142,7 +194,16 @@ h1{
 }
 
 .Row{
-    margin-bottom: 2em;
+    margin: 2em 0;
+}
+
+.short{
+    margin-top: 1em;
+    margin-right: 8em;
+}
+
+.checkSign{
+    color: blue;
 }
 
 /* ****section 3**** */
@@ -201,9 +262,16 @@ h1{
     width: 33.33%;    
 }
 
+.containerSecondSection > .column30 > h3{
+    margin-bottom: 1em;
+}
+
+
+
+
 /* ***section 6*** */
 #sixthSection{
-    min-height: 400px;
+    min-height: 250px;
     margin-top: 10em;
 }
 
@@ -296,15 +364,29 @@ hr{
     color: black;
 }
 
-.marginTopBottom2em{
-    margin: 2em 0;
+.faq:hover span i{
+    transform: rotate(180deg);    
 }
+
+.faq:hover + .faqContent{
+    display: block;
+}   
+
+
+.faqContent{
+    display: none;
+}
+
+
+
 
 /* ******footer****** */
 
 footer{
     background-color: black;
     color: white;
+    margin-top: 4em;
+    font-size: ;
 }
 
 .boxed60{
@@ -320,6 +402,12 @@ footer{
 .listStyleNone{
     list-style-type: none;
 }
+
+li{
+    margin-bottom: .5em;
+}
+
+
 
 
 
