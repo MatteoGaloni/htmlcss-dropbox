@@ -17,15 +17,15 @@
     <header class="flex spaceBtw alignItemCenter">
         <div class="headLeft flex spaceBtw alignItemCenter">
             <img class="dropboxLogo" src="./img/logo-small.png" alt="">
-            <span>Perchè DropBox</span>
-            <span>Funzioni</span>
-            <span>Piani e prezzi</span>
+            <a class="navLink" href="">Perchè DropBox</a>
+            <a class="navLink" href="">Funzioni</a>
+            <a class="navLink" href="">Piani e prezzi</a>
         </div>
         <div class="headRight flex spaceBtw alignItemCenter">
-            <span>Supporto</span>
-            <span>Contatta l'ufficio vendite</span>
-            <span>Accedi</span>
-            <button><span>Inizia</span></button>
+            <a class="navLink" href="">Supporto</a>
+            <a class="navLink" href="">Contatta l'ufficio vendite</a>
+            <a class="navLink" href="">Accedi</a>
+            <a href=""><button>Inizia</button></a>
         </div>
     </header>
 
@@ -38,7 +38,7 @@
                 <div class="flex spaceBtw">
                     <div class="columnLeft flexColumn spaceBtw">
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam nesciunt numquam eos, ex placeat sequi deserunt blanditiis facere, earum dolor qui cupiditate. Nemo blanditiis iusto quaerat praesentium facere neque assumenda!</p>
-                        <button id="freeTrialButton">Inizia la tua prova gratuita</button>
+                        <a href=""><button id="freeTrialButton">Inizia la tua prova gratuita</button></a>
                         <span>Annulla in qualsiasi momento</span>
                         <a href="#secondSection"><i class="fa-solid fa-arrow-down"></i></a>
                         
@@ -61,86 +61,133 @@
                 <label class="mrgR2em" for="huey">Fatturazione mensile</label>
 
                 <input type="radio">
-                <label for="huey">Fatturazione annuale</label>
-                
+                <label for="huey">Fatturazione annuale</label>                
 
                 <div class="containerSecondSection flex spaceBtw">
-                    <div class="column30 border pad1em">
-                        <span class="account"><i class="fa-solid fa-user"></i> Singolo</span>
-                        <div class="first Row">                            
-                            <h3>Professional</h3>
-                            <h5>€ 12.00</h5>                        
-                            <small>/mese</small>
-                        </div>
-                        <div class="second Row flexColumn">
+                    <div class="column30 border">
+                        <div class="padY05em account">
                             <span><i class="fa-solid fa-user"></i> Singolo</span>
-                            <span class="mrgTop1em"><i class="fa-solid fa-user"></i> Singolo</span>
-                            <span class="mrgTop1em"><i class="fa-solid fa-user"></i> Singolo</span>                                                     
                         </div>
-                        <button class="mrgBottom1em">Prova gratis per 30 giorni</button>
-                        <span class="mrgTop1em">oppure <a href="">aquista ora</a></span>
-                        <hr class="short">                       
-                        <div class="third Row">
-                            <h4>Punti salienti del piano</h4>
-                               <ul class="listStyleNone mrgTop1em">
-                                    <li class="mrgTop1em">
-                                        <span class="checkSign">&#10004 </span>Invia file fino a 100 GB con Dropbox Transfert</li>
-                                    <li class="mrgTop1em">
-                                        <span class="checkSign">&#10004 </span>Invia file fino a 100 GB con Dropbox Transfert</li>                                    
-                               </ul>                            
-                        </div>                    
+                        <div class="pad1em">
+                            <div class="first Row">                            
+                                <h3 class="mrgBottom1em">Professional</h3>
+                                <h5>€ 12.00</h5>                        
+                                <small>/mese</small>
+                            </div>
+                            <div class="second Row flexColumn fontSize">
+                                 <div class="flex padY05em">                               
+                                    <i class="fa-solid fa-user"></i>                                    
+                                    <span class=" padLeft1">1 Utente</span>
+                                </div>
+                                <div class="flex padY05em">                               
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span class=" padLeft1">5 TB di spazio di archiviazione sicuro</span>
+                                </div>
+                                <div class="flex padY05em">                               
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <span class="padLeft1">Funzioni di produttività premium e condivisione file semplice e sicura</span>
+                                </div>                                                                                                                    
+                            </div>
+                            <button class="mrgBottom1em">Prova gratis per 30 giorni</button>
+                            <span class="mrgTop1em">oppure <a href="">aquista ora</a></span>
+                            <hr class="short">                       
+                            <div class="third Row">
+                                <h4>Punti salienti del piano</h4>
+                                <ul class="listStyleNone mrgTop1em">
+                                        <li class="mrgTop1em">
+                                            <span class="checkSign">&#10004 </span>Invia file fino a 100 GB con Dropbox Transfert</li>
+                                        <li class="mrgTop1em">
+                                            <span class="checkSign">&#10004 </span>Cartelle offline su dispositivi mobili</li>                                    
+                                </ul>                            
+                            </div>                    
+                        </div>
                     </div>
-                    <div class="column30 border pad1em">
-                        <span class="account"><i class="fa-solid fa-user"></i> Singolo</span>
-                        <div class="first Row">                            
-                            <h3>Professional</h3>
-                            <h5>€ 12.00</h5>                        
-                            <small>/mese</small>
+                    <div class="column30 border">
+                        <div class="padY05em account">
+                            <span><i class="fa-solid fa-users"></i> Team</span>
                         </div>
-                        <div class="second Row flexColumn">
-                            <span><i class="fa-solid fa-user"></i> Singolo</span>
-                            <span class="mrgTop1em"><i class="fa-solid fa-user"></i> Singolo</span>
-                            <span class="mrgTop1em"><i class="fa-solid fa-user"></i> Singolo</span>                                                     
+                        <div class="pad1em">
+                            <div class="first Row">                            
+                                <h3 class="mrgBottom1em">Advanced</h3>
+                                <h5>€ 18.00</h5>                        
+                                <small>/utente/mese</small>
+                            </div>
+                            <div class="second Row flexColumn">
+                                 <div class="flex padY05em">                               
+                                    <i class="fa-solid fa-users"></i>                                    
+                                    <span class="padLeft1">3 o più utenti</span>
+                                </div>
+                                <div class="flex padY05em">                               
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span class=" padLeft1">Tutto lo spazio di cui ha biogno il tuo team</span>
+                                </div>
+                                <div class="flex padY05em">                               
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <span class="padLeft1">Sofisticate funzioni di controllo per tenere al sicuro tutti i file del tuo team</span>
+                                </div>                                                                                                                    
+                            </div>
+                            <button class="mrgBottom1em">Prova gratis per 30 giorni</button>
+                            <span class="mrgTop1em">oppure <a href="">aquista ora</a></span>
+                            <hr class="short">                       
+                            <div class="third Row">
+                                <h4>Punti salienti del piano</h4>
+                                <ul class="listStyleNone mrgTop1em">
+                                        <li class="mrgTop1em">
+                                            <span class="checkSign">&#10004 </span>Nesssun limite di spazio per i file</li>
+                                        <li class="mrgTop1em">
+                                            <span class="checkSign">&#10004 </span>Cartelle offline si dispositivi mobili</li>                                    
+                                        <li class="mrgTop1em">
+                                            <span class="checkSign">&#10004 </span>Risparmio del 50% rispetto alle iscrizioni singole</li>                                    
+                                        <li class="mrgTop1em">
+                                            <span class="checkSign">&#10004 </span>Possibilità di inserire nuovi membri del team</li>                                    
+                                        <li class="mrgTop1em">
+                                            <span class="checkSign">&#10004 </span>Gestione dei permessi in base ai ruoli</li>                                    
+                                </ul>                            
+                            </div>                    
                         </div>
-                        <button class="mrgBottom1em">Prova gratis per 30 giorni</button>
-                        <span class="mrgTop1em">oppure <a href="">aquista ora</a></span>
-                        <hr class="short">                       
-                        <div class="third Row">
-                            <h4>Punti salienti del piano</h4>
-                               <ul class="listStyleNone mrgTop1em">
-                                    <li class="mrgTop1em">
-                                        <span class="checkSign">&#10004 </span>Invia file fino a 100 GB con Dropbox Transfert</li>
-                                    <li class="mrgTop1em">
-                                        <span class="checkSign">&#10004 </span>Invia file fino a 100 GB con Dropbox Transfert</li>                                    
-                               </ul>                            
-                        </div>                    
                     </div>
-                    <div class="column30 border pad1em">
-                        <span class="account"><i class="fa-solid fa-user"></i> Singolo</span>
-                        <div class="first Row">                            
-                            <h3>Professional</h3>
-                            <h5>€ 12.00</h5>                        
-                            <small>/mese</small>
+                    <div class="column30 border">
+                        <div class="padY05em account">
+                            <span><i class="fa-solid fa-building"></i> Azienda</span>
                         </div>
-                        <div class="second Row flexColumn">
-                            <span><i class="fa-solid fa-user"></i> Singolo</span>
-                            <span class="mrgTop1em"><i class="fa-solid fa-user"></i> Singolo</span>
-                            <span class="mrgTop1em"><i class="fa-solid fa-user"></i> Singolo</span>                                                     
+                        <div class="pad1em">
+                            <div class="first Row">                            
+                                <h3 class="mrgBottom1em">Enterprise</h3>
+                                <h5>Contattaci</h5>                        
+                                <small>&#128536;</small>
+                            </div>
+                            <div class="second Row flexColumn fontSize">
+                                 <div class="flex padY05em">                               
+                                    <i class="fa-solid fa-user"></i>                                    
+                                    <span class=" padLeft1">10 o più utenti</span>
+                                </div>
+                                <div class="flex padY05em">                               
+                                    <i class="fa-solid fa-folder"></i>
+                                    <span class=" padLeft1">Soluzioni personalizzabili per la tua azienda</span>
+                                </div>
+                                <div class="flex padY05em">                               
+                                    <i class="fa-solid fa-share-nodes"></i>
+                                    <span class="padLeft1">Assistenza personalizzata per aiutare gli amministratore in una gestione su larga scala</span>
+                                </div>                                                                                                                    
+                            </div>
+                            <button class="mrgBottom1em">Prova gratis per 30 giorni</button>
+                            <div>
+                                <span class="mrgTop1em">oppure <a href="">aquista ora</a></span>
+                            </div>    
+                            <hr class="short">                       
+                            <div class="third Row">
+                                <h4>Punti salienti del piano</h4>
+                                <ul class="listStyleNone mrgTop1em">
+                                        <li class="mrgTop1em">
+                                            <span class="checkSign">&#10004 </span>Cartelle offline su dispositivi mobili</li>
+                                        <li class="mrgTop1em">
+                                            <span class="checkSign">&#10004 </span>Servizio assitenza 24/h</li>                                    
+                                        <li class="mrgTop1em">
+                                            <span class="checkSign">&#10004 </span>Possibilità di personalizzazione totale</li>                                    
+                                </ul>                            
+                            </div>                    
                         </div>
-                        <button class="mrgBottom1em">Prova gratis per 30 giorni</button>
-                        <span class="mrgTop1em">oppure <a href="">aquista ora</a></span>
-                        <hr class="short">                       
-                        <div class="third Row">
-                            <h4>Punti salienti del piano</h4>
-                               <ul class="listStyleNone mrgTop1em">
-                                    <li class="mrgTop1em">
-                                        <span class="checkSign">&#10004 </span>Invia file fino a 100 GB con Dropbox Transfert</li>
-                                    <li class="mrgTop1em">
-                                        <span class="checkSign">&#10004 </span>Invia file fino a 100 GB con Dropbox Transfert</li>                                    
-                               </ul>                            
-                        </div>                    
-                    </div>                 
-                           
+                    </div>
                 </div>    
             </div>
         </section>
@@ -153,9 +200,9 @@
                     <span>Team</span> 
                 </div>
                 <div class="flexColumn">
-                    <div class="flex spaceBtw">
+                    <div class="flex spaceBtw alignItemCenter">
                         <h3 class="mrg1em">Enterprise</h3>
-                        <button>Contatta l'ufficio vendite</button>
+                        <button class="height80">Contatta l'ufficio vendite</button>
                     </div>
                     <h4 class="mrg1em">Contatta l'ufficio vendite per i prezzi</h4>
                     <p class="mrg1em">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit labore amet numquam nisi cupiditate nesciunt distinctio unde. Tempore molestias in debitis, voluptatibus exercitationem odit enim modi neque sunt consectetur! Maiores.</p>
@@ -172,58 +219,52 @@
                 <div class="columnB pad1em flexColumn">
                     <h3 class="mrgBottom1em">Entra in contatto con un partner Dropbox</h3>
                     <p class="mrgBottom1em">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet ut eaque inventore vero laboriosam ducimus. Facilis reiciendis illo ipsam totam fugiat, ipsum earum.</p>
-                     <button>Trova un partner</button>   
+                     <button id="bgkWhite">Trova un partner</button>   
                 </div>                    
             </div>
         </section>
 
-        <!-- section 5 -->
-            
+        <!-- section 5 -->            
         <section id="fifthSection">
             <div class="boxed50">
                 <div>           
                     <h2 class="headerFifthSection">Esegui più operazioni con Dropbox Premium</h2>
                 </div>                                                    
                 <div class="containerSecondSection flex wrapped">
-                    <div class="column30">
+                    <div class="column30 pad1em">
                         <img class="section5Img" src="./img/business-feature-switching-tools.png" alt="">                        
                         <h3>Passa di meno da uno strumento all'altro</h3>             
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, tempora veritatis consectetur ut totam ullam recusandae minima alias ipsam ipsa nostrum nihil ipsum aliquam obcaecati amet accusamus sint similique impedit?</p>        
                     </div>
-                    <div class="column30">
+                    <div class="column30 pad1em">
                         <img class="section5Img" src="./img/business-feature-send-files-it.png" alt="">                        
                         <h3>Passa di meno da uno strumento all'altro</h3>             
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, tempora veritatis consectetur ut totam ullam recusandae minima alias ipsam ipsa nostrum nihil ipsum aliquam obcaecati amet accusamus sint similique impedit?</p>        
-             
-                                  
+                                               
                     </div>
-                    <div class="column30">
+                    <div class="column30 pad1em">
                         <img class="section5Img" src="./img/business-feature-coordinate-it.png" alt="">                        
                         <h3>Passa di meno da uno strumento all'altro</h3>             
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, tempora veritatis consectetur ut totam ullam recusandae minima alias ipsam ipsa nostrum nihil ipsum aliquam obcaecati amet accusamus sint similique impedit?</p>        
-             
-                                  
+                                               
                     </div>
-                    <div class="column30">
+                    <div class="column30 pad1em">
                         <img class="section5Img" src="./img/business-feature-integrations-it.png" alt="">                        
                         <h3>Passa di meno da uno strumento all'altro</h3>             
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, tempora veritatis consectetur ut totam ullam recusandae minima alias ipsam ipsa nostrum nihil ipsum aliquam obcaecati amet accusamus sint similique impedit?</p>        
-            
-                                  
+                                              
                     </div>
-                    <div class="column30">
+                    <div class="column30 pad1em">
                         <img class="section5Img" src="./img/business-feature-multi-device.png" alt="">                        
                         <h3>Passa di meno da uno strumento all'altro</h3>             
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, tempora veritatis consectetur ut totam ullam recusandae minima alias ipsam ipsa nostrum nihil ipsum aliquam obcaecati amet accusamus sint similique impedit?</p>        
-           
-                                  
+                                             
                     </div>
-                    <div class="column30">
+                    <div class="column30 pad1em">
                         <img class="section5Img" src="./img/business-feature-security.png" alt="">                        
                         <h3>Passa di meno da uno strumento all'altro</h3>             
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, tempora veritatis consectetur ut totam ullam recusandae minima alias ipsam ipsa nostrum nihil ipsum aliquam obcaecati amet accusamus sint similique impedit?</p>        
-     
-                            
+                                
                 </div>                                    
             </div>
         </section>
@@ -248,12 +289,10 @@
                 <div class="threeL grid flex justifyCenter alignItemCenter">
                     <img class="gridImg" src="./img/university_of_florida.svg" alt="">
                 </div>
-                <div class="fourthL grid flex justifyCenter alignItemCenter">
+                <div class="fourL grid flex justifyCenter alignItemCenter">
                     <img class="gridImg" src="./img/topps.svg" alt="">
-                </div>
-                                           
+                </div>                                           
             </div>
-
             <div class="column30 square overflow">
                 <div>
                     <img class="gridImgCentre" src="./img/designit.svg" alt="">
@@ -273,16 +312,16 @@
             </div>
 
             <div class="column30 square flex wrapped">
-                <div class="oneL grid flex justifyCenter alignItemCenter">                    
+                <div class="oneR grid flex justifyCenter alignItemCenter">                    
                     <img class="gridImg" src="./img/world_bicycle_relief.svg" alt="">
                 </div>
-                <div class="twoL grid flex justifyCenter alignItemCenter">
+                <div class="twoR grid flex justifyCenter alignItemCenter">
                     <img class="gridImg" src="./img/hearst_corp.svg" alt="">
                 </div>
-                <div class="threeL grid flex justifyCenter alignItemCenter">
+                <div class="threeR grid flex justifyCenter alignItemCenter">
                     <img class="gridImg" src="./img/lonely_planet.svg" alt="">
                 </div>
-                <div class="fourL grid flex justifyCenter alignItemCenter">
+                <div class="four grid flex justifyCenter alignItemCenter">
                     <img class="gridImg" src="./img/clear_channel.svg" alt="">
                 </div>                                            
             </div>            
@@ -292,7 +331,7 @@
          <section id="eightSection">
             <div class="boxed50 flex spaceBtw">
                 <h2>Porta DropBox business nella tua azienda</h2>
-                <button>Inizia la tua prova gratuita</button>
+                <button id="btn8sec">Inizia la tua prova gratuita</button>
             </div>
         </section>
 
@@ -318,8 +357,7 @@
                     <span><i class="fa-solid fa-angle-down"></i></span>                    
                 </div>
                 <div class="faqContent mrgTop1em">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam placeat eligendi qui enim iusto voluptatum sunt culpa quia, saepe ut, debitis officiis consequuntur temporibus explicabo laborum asperiores accusantium aliquid pariatur.</div>
-                <hr class="marginTopBottom2em">
-                
+                <hr class="marginTopBottom2em">                
             </div>
         </section>
     </main>
@@ -376,8 +414,14 @@
                     <li>Funzioni</li>
                 </ul>               
             </div>       
-        </div>  
-
+        </div> 
+        <div class="boxed60">
+            <hr id="shortFooterHr">
+            <div class="flex padtop1em gap">
+                <i class="fa-solid fa-earth-americas"></i>
+                <span>Italiano</span>
+                <i class="fa-solid fa-angle-up"></i>    
+            </div>
     </footer>
     
 </body>
