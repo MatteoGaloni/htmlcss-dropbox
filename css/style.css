@@ -80,13 +80,13 @@ header{
 }
 
 .headLeft{
-    width: 30%;
+    min-width: 40%;
 
 }
     
 
 .headRight{
-    width: 30%;
+    min-width: 40%;
 }
 
 
